@@ -1,0 +1,18 @@
+tile.h
+
+#ifndef INCLUDED_TILE
+#define INCLUDED_TILE
+
+class Tile
+{
+public:
+	Tile(int identifier);
+	int getType(int identifier);
+	int getValue(int identifier);
+
+private:
+int			m_value;
+char 		m_type;
+int 		m_identifier;
+};
+#endif
